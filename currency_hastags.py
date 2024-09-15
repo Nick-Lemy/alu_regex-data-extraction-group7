@@ -16,9 +16,7 @@ def extract_hashtags(input_string):
 
 if __name__ == '__main__':
     # Prompt the user for input
-    user_input = input("Enter a string that contains currency amounts and/or hashtags: ")
-
-    # Extract currencies
+    user_input = input("Enter a string that contains currency amounts and/or hashtag:")
     currencies = extract_currency(user_input)
     if currencies:
         print("Extracted Currencies:", currencies)
