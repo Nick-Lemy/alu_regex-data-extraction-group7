@@ -5,4 +5,5 @@ Features
 Extract HTML Tags: The script identifies and extracts basic HTML tags such as <div>, <p>, <img>, and more.
 Extract URLs: The script scans the input text for valid URLs (both http and https).
 Easy to Use: Simple input prompts that allow for fast processing of user data.
-Regex-based Extraction: Utilizes powerful regular expressions (regex) to detect patterns of HTML and URLs in the input tex.
+Regex-based Extraction: Utilizes powerful regular expressions (regex) to detect patterns of HTML and URLs in the input text.
+alberto
