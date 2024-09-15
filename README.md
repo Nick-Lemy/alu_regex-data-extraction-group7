@@ -9,4 +9,4 @@ Regex-based Extraction: Utilizes powerful regular expressions (regex) to detect 
 Installation
 Requirements
 Python 3.x
-No external libraries are needed; the code uses Python’s built-in re module.
+No external libraries are needed; the code uses Python’s built-in re module regexp.
