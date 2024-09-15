@@ -12,14 +12,11 @@ if __name__ == '__main__':
     # Prompt the user for input
     user_input = input("Enter a string that contains times: ")
 
-<<<<<<< HEAD
-for char in match_strings:
+for char in user_input:
     print(f'The time is :{char}')
-=======
     # Extract currencies
     currencies = extract_times(user_input)
     if currencies:
         print("Extracted Currencies:", currencies)
     else:
         print("No valid currencies found.")
->>>>>>> b5a40aa861f01c60968a7dc1d30b871e499e91db
