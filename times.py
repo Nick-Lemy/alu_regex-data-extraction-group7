@@ -5,18 +5,14 @@ import re
 pattern = r'\b((?:[01]\d|2[0-3]):[0-5]\d|(?:0?[1-9]|1[0-2]):[0-5]\d\s?(?:AM|PM))\b'
 
 def extract_times(input_string):
-    """Extract all currency amounts from the input string."""
+    """Extract all times from the input string."""
     return re.findall(pattern, input_string)
 
 if __name__ == '__main__':
     # Prompt the user for input
-    user_input = input("Enter a string that contains times: ")
-
-for char in user_input:
-    print(f'The time is :{char}')
-    # Extract currencies
-    currencies = extract_times(user_input)
-    if currencies:
-        print("Extracted Currencies:", currencies)
+    user_input = input("Enter a string that contains times :")
+    times = extract_times(user_input)
+    if times:
+        print("Extracted times:", times)
     else:
-        print("No valid currencies found.")
+        print("No valid times found.")
